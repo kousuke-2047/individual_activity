@@ -1,0 +1,10 @@
+$(function(){
+	$(".howtoplay").click(function(){
+		$(".howtoplaybox").fadeIn();
+		$(".windowbox").fadeOut();
+	});
+	$(".backbox").click(function(){
+		$(".howtoplaybox").fadeOut();
+		$(".windowbox").fadeIn();
+	});
+});

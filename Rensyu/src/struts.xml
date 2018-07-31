@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+"-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+"http://struts.apache.org/dtds/struts-2.3.dtd">
+
+<struts>
+
+	<constant name="struts.devMode" value ="true"/>
+	<package name ="com.rensyu.action" extends="struts-default">
+
+	<action name="HomeAction"  class ="com.rensyu.action.HomeAction" method = "execute">
+	<result name = "success">login.jsp</result>
+	</action>
+
+	<action name = "LoginAction" class = "com.rensyu.action.LoginAction" method = "execute">
+	<result name = "success">logincomplete.jsp</result>
+	<result name = "error">loginerror.jsp</result>
+	</action>
+
+	<action name = "LoginCompleteAction" class = "com.rensyu.action.LoginCompleteAction" method = "execute">
+	<result name = "success">buyItem.jsp</result>
+	</action>
+
+	<action name = "BuyItemAction" class ="com.rensyu.action.BuyItemAction" method ="execute">
+	<result name = "success">buyItemconfirm.jsp</result>
+	</action>
+
+	<action name = "BuyItemCompleteAction" class = "com.rensyu.action.BuyItemCompleteAction" method ="execute">
+	<result name = "success">buyItemcomplete.jsp</result>
+	</action>
+
+	<action name = "MypageAction" class = "com.rensyu.action.MypageAction" method ="execute">
+	<result name = "success">mypage.jsp</result>
+	</action>
+
+	<action name = "DeleteHAction" class = "com.rensyu.action.DeleteHAction" method = "execute">
+	<result name = "success">deleteH.jsp</result>
+	<result name = "error">deleteX.jsp</result>
+	</action>
+
+	<action name = "DeleteSAction" class = "com.rensyu.action.DeleteSAction" method ="execute">
+	<result name = "success">deleteS.jsp</result>
+	<result name = "error">deleteX.jsp</result>
+	</action>
+
+	<action name = "UserCreateAction" class = "com.rensyu.action.UserCreateAction" method ="execute">
+	<result name = "success">usercreate.jsp</result>
+	 </action>
+
+	<action name = "UserCreateFAction" class = "com.rensyu.action.UserCreateFAction" method = "execute">
+	<result name = "success">usercreateF.jsp</result>
+	<result name = "error">usercreate.jsp</result>
+	</action>
+
+	<action name = "UserCreateCAction" class = "com.rensyu.action.UserCreateCAction" method ="execute">
+	<result name = "success">usercreateC.jsp</result>
+	<result name = "back">usercreate.jsp</result>
+	</action>
+
+	<action name = "CommanderAction" class = "com.rensyu.action.CommanderAction" method = "execute">
+	<result name = "success">commander.jsp</result>
+
+	</action>
+
+	<action name = "CommanderLAction" class = "com.rensyu.action.CommanderLAction" method = "execute">
+	<result name = "success">commanderhome.jsp</result>
+	<result name = "error">index.jsp</result>
+	</action>
+
+	<action name = "UserdeleteAction" class = "com.rensyu.action.UserdeleteAction" method = "execute">
+	<result name = "success">userdelete.jsp</result>
+	</action>
+
+	<action name = "UserdeleteCAction" class = "com.rensyu.action.UserdeleteCAction" method = "execute">
+	<result name = "success">userdeleteC.jsp</result>
+	</action>
+
+	<action name ="LogoutAction" class = "com.rensyu.action.LogoutAction" method = "execute">
+	<result name ="success">index.jsp</result>
+	</action>
+
+
+
+	</package>
+</struts>

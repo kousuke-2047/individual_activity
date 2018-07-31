@@ -1,0 +1,275 @@
+@CHARSET "UTF-8";
+header{
+	height:80px;
+	width:100%;
+	background-color:red;
+	position:fixed;
+	top:0px;
+}
+footer{
+	height:30px;
+	width:100%;
+	background-color:yellow;
+	position:fixed;
+	bottom:0px;
+}
+body{
+	background-color:black;
+}
+.whiteheader{
+	height:80px;
+	width:100%;
+}
+.main{
+	position:absolute;
+	top:80px;
+	background-image:url("../images/newbackground.jpg");
+	background-size:contain;
+	width:1600px;
+	height:600px;
+}
+
+.mainsecond{
+	display:none;
+	position:absolute;
+	top:80px;
+	background-image:url("../images/background_home_second.jpg");
+	background-size:contain;
+	width:100%;
+	height:550px;
+}
+
+.firstranking{
+	/* 画像の大きさを決める
+	jsファイルで点滅、フェードインのあれをしてないのでやる*/
+}
+.secondranking{
+
+}
+.thirdranking{
+
+}
+.startminibox{
+	width:230px;
+	height:100px;
+	background-color:black;
+	position:absolute;
+	top:200px;
+	left:620px;
+}
+.startminiinner{
+	width:90%;
+	height:70%;
+	border:2px solid white;
+	margin:0 auto;
+	margin-top:10px;
+	border-radius:5px;
+	color:white;
+}
+/* スタートボックスはwid900px,hei450pxに */
+.startbox{
+	width:750px;
+	height:350px;
+	position:absolute;
+	top:85px;
+	left:155px;
+
+}
+.startinner{
+	width:90%;
+	height:90%;
+	border:4px solid white;
+	color:white;
+	border-radius:10px;
+	margin:0 auto;
+	margin-top:10px;
+}
+.battlebox{
+	display:none;
+	width:750px;
+	height:350px;
+	position:absolute;
+	top:85px;
+	left:155px;
+}
+.rankfirstbox{
+	width:30%;
+	height:100%;
+	background-color:#ffff80;
+	float:left;
+	margin-left:3%;
+	margin-top:3%;
+}
+.ranksecondbox{
+	width:30%;
+	height:100%;
+	background-color:#ffff80;
+	float:left;
+	margin-left:3%;
+	margin-top:3%;
+}
+.rankthirdbox{
+	width:30%;
+	height:100%;
+	background-color:#ffff80;
+	float:left;
+	margin-left:3%;
+	margin-top:3%;
+}
+.firstselectbox{
+	height:30%;
+	width:25%;
+	float:left;
+	margin-top:3%;
+	margin-left:3%;
+	border:4px solid white;
+	border-radius:10px;
+}
+.secondselectbox{
+	display:none;
+	height:30%;
+	width:67%;
+	background-color:black;
+	float:left;
+	margin-top:3%;
+	margin-left:2%;
+	border:4px solid white;
+	border-radius:10px;
+}
+
+.keytop{
+	display:none;
+	position:absolute;
+	top:425px;
+	left:1080px;
+	width:27px;
+	height:27px;
+	border:solid white 1px;
+}
+.keybottom{
+	display:none;
+	position:absolute;
+	top:485px;
+	left:1080px;
+	width:27px;
+	height:27px;
+	border:solid white 1px;
+
+}
+.keyleft{
+	display:none;
+	position:absolute;
+	top:455px;
+	left:1055px;
+	width:27px;
+	height:27px;
+	border:solid white 1px;
+
+}
+.keyright{
+	display:none;
+	position:absolute;
+	top:455px;
+	left:1110px;
+	width:27px;
+	height:27px;
+	border:solid white 1px;
+
+}
+.Abutton{
+	display:none;
+	position:absolute;
+	top:480px;
+	left:1385px;
+	width:30px;
+	height:30px;
+	border:solid white 1px;
+	border-radius:15px;
+}
+.afterAbutton{
+	display:none;
+	width:30px;
+	height:30px;
+	position:absolute;
+	top:480px;
+	left:1385px;
+	border:solid white 1px;
+	border-radius:15px;
+	background-color: rgba(33, 39, 98, 0.5);
+}
+.Bbutton{
+	display:none;
+	width:30px;
+	height:30px;
+	position:absolute;
+	top:480px;
+	left:1325px;
+	border:solid white 1px;
+	border-radius:15px;
+}
+.key{
+	border:1px solid black;
+	width:20px;
+	height:20px;
+	float:right;
+	position:absolute;
+	top:225px;
+	left:40px;
+	color:white;
+	transform: rotate( -90deg );
+}
+.keyline{
+	width:40px;
+	float:left;
+	height:100%;
+}
+.genrebox{
+	padding-top:4px;
+	width:70%;
+	height:30%;
+	float:left;
+	color:white;
+}
+
+.namebox{
+	padding-top:4px;
+	width:100%;
+	height:30%;
+	float:left;
+	color:white;
+}
+.actrankbox{
+	display:none;
+	width:100%;
+	height:50%;
+}
+.rpgrankbox{
+	display:none;
+	width:100%;
+	height:50%;
+}
+.puzrankbox{
+	display:none;
+	width:100%;
+	height:50%;
+}
+.actnamebox{
+	display:none;
+	width:80%;
+	height:100%;
+	float:left;
+}
+.rpgnamebox{
+	display:none;
+	width:80%;
+	height:100%;
+	float:left;
+}
+.puznamebox{
+	display:none;
+	width:80%;
+	height:100%;
+	float:left;
+}
+input[type=radio].radionone {display: none;}
+

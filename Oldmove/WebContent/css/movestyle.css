@@ -1,0 +1,31 @@
+@CHARSET "UTF-8";
+
+body{
+	background-color:black;
+}
+
+
+.box{
+	width:240px;
+	height:60px;
+	position:relative;
+	left:100px;
+}
+.blackbox{
+	width:360px;
+	height:240px;
+	background-color:green;
+	position:absolute;
+	top:310px;
+}
+.retrisbox{
+	width:422px;
+	height:550px;
+	border:1px solid white;
+	background-color:white;
+	position:absolute;
+	left:100px;
+}
+
+
+

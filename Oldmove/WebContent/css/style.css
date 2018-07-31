@@ -1,0 +1,343 @@
+@CHARSET "UTF-8";
+a{
+	color:black;
+}
+
+.nameleft{
+	width:70px;
+	height:25px;
+	border:1px solid black;
+	border-top-left-radius:5px;
+	float:left;
+}
+.namecenter{
+	width:70px;
+	height:25px;
+	border:1px solid black;
+	float:left;
+}
+.nameright{
+	width:70px;
+	height:25px;
+	border:1px solid black;
+	border-top-right-radius:5px;
+	float:left;
+}
+.dateleft{
+	width:70px;
+	height:50px;
+	border:1px solid black;
+	border-bottom-left-radius:5px;
+	clear:left;
+	float:left;
+}
+.datecenter{
+	width:70px;
+	height:50px;
+	border:1px solid black;
+	float:left;
+}
+.dateright{
+	width:70px;
+	height:50px;
+	border:1px solid black;
+	border-bottom-right-radius:5px;
+	float:left;
+}
+
+
+
+
+
+
+
+
+
+.enemybox{
+	height:90px;
+	width:210px;
+	background-color:white;
+	clear:left;
+	padding-top:10px;
+}
+.messagebox{
+	height:70px;
+	width:180px;
+	margin-left:15px;
+	border-radius:5px;
+	border:1px solid white;
+	color:white;
+	text-align:center;
+}
+.setuna_messagebox{
+	display:none;
+	height:70px;
+	width:180px;
+	margin-left:15px;
+	border-radius:5px;
+	border:1px solid black;
+	color:black;
+	text-align:center;
+}
+.textbox{
+	height:90px;
+	width:210px;
+	border:1px solid black;
+	border-radius:5px;
+}
+
+.button{
+	height:30px;
+	width:80px;
+	border:1px solid black;
+	text-align:center;
+}
+
+.setunabutton{
+	height:30px;
+	width:80px;
+	border:1px solid black;
+	text-align:center;
+}
+
+.selectbutton{
+	height:31px;
+	width:88px;
+	text-align:center;
+	float:left;
+	border:1px solid white;
+	border-top:2px solid white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.mainbox{
+	height:150px;
+	width:100%;
+	padding-left:50px;
+	padding-top:50px;
+}
+.firstline{
+	width:250px;
+	height:10px;
+}
+.secondline{
+	width:250px;
+	height:10px;
+	margin-left:200px;
+}
+.thirdline{
+	width:250px;
+	height:10px;
+}
+.fourthline{
+	width:250px;
+	height:10px;
+	margin-left:200px;
+}
+.fifthline{
+	width:250px;
+	height:10px;
+}
+.ffirst{
+	width:30px;
+	height:10px;
+	background-color:white;
+	float:left;
+}
+.fsecond{
+	width:10px;
+	height:10px;
+	background-color:white;
+	float:left;
+
+}
+.fthird{
+	width:20px;
+	height:10px;
+	background-color:white;
+	float:left;
+}
+.ffourth{
+	width:10px;
+	height:10px;
+	background-color:white;
+	float:left;
+}
+.ffifth{
+	width:10px;
+	height:10px;
+	background-color:white;
+	float:left;
+}
+.ifirst{
+	width:30px;
+	height:10px;
+	background-color:white;
+	margin-left:10px;
+	float:left;
+}
+.isecond{
+	width:10px;
+	height:10px;
+	background-color:white;
+	margin-left:40px;
+	float:left;
+}
+.ithird{
+	width:10px;
+	height:10px;
+	background-color:white;
+	margin-left:30px;
+	float:left;
+}
+.ifourth{
+	width:10px;
+	height:10px;
+	background-color:white;
+	margin-left:40px;
+	float:left;
+}
+.ififth{
+	width:30px;
+	height:10px;
+	background-color:white;
+	margin-left:30px;
+	float:left;
+}
+
+.gfirst{
+	width:30px;
+	height:10px;
+	background-color:white;
+	margin-left:10px;
+	float:left;
+}
+.gsecond{
+	width:10px;
+	height:10px;
+	background-color:white;
+	margin-left:20px;
+	float:left;
+}
+.gthird{
+	width:30px;
+	height:10px;
+	background-color:white;
+	margin-left:20px;
+	float:left;
+}
+.gfourth{
+	width:30px;
+	height:10px;
+	background-color:white;
+	margin-left:20px;
+	float:left;
+}
+.gfifth{
+	width:30px;
+	height:10px;
+	background-color:white;
+	margin-left:10px;
+	float:left;
+}
+.hfirst{
+	width:30px;
+	height:10px;
+	background-color:white;
+	margin-left:10px;
+	float:left;
+	text-align:center;
+	font-size:10px;
+	color:white;
+}
+.hsecond{
+	width:30px;
+	height:10px;
+	background-color:white;
+	margin-left:30px;
+	float:left;
+	text-align:center;
+	font-size:10px;
+}
+.hthird{
+	width:30px;
+	height:10px;
+	background-color:white;
+	margin-left:10px;
+	float:left;
+}
+.hfourth{
+	width:30px;
+	height:10px;
+	background-color:white;
+	margin-left:10px;
+	float:left;
+	text-align:center;
+		font-size:10px;
+}
+.hfifth{
+	width:30px;
+	height:10px;
+	background-color:white;
+	margin-left:10px;
+	float:left;
+	text-align:center;
+	font-size:10px;
+}
+.tfirst{
+	width:30px;
+	height:10px;
+	background-color:white;
+	margin-left:160px;
+}
+.tsecond{
+	width:10px;
+	height:10px;
+	background-color:white;
+	margin-left:170px;
+}
+.tthird{
+	width:10px;
+	height:10px;
+	background-color:white;
+	margin-left:170px;
+}
+.tfourth{
+	width:10px;
+	height:10px;
+	background-color:white;
+	margin-left:170px;
+}
+.tfifth{
+	width:10px;
+	height:10px;
+	background-color:white;
+	margin-left:170px;
+}
+.box{
+	width:10px;
+	height:10px;
+	background-color:white;
+	margin-left:10px;
+}
+.minibox{
+	width:5px;
+	height:10px;
+	background-color:white;
+	margin-left:10px;
+}
+
+

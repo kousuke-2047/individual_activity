@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+"-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+"http://struts.apache.org/dtds/struts-2.3.dtd">
+<struts>
+	<constant name="struts.devMode" value ="true"/>
+	<package name ="com.oldmove.action" extends="struts-default">
+
+	<action name="FightAction" class="com.oldmove.action.FightAction" method="execute">
+	<result name="success">fight.jsp</result>
+	</action>
+
+	<action name="SelectmonsterAction" class="com.oldmove.action.SelectmonsterAction" method="execute">
+	<result name="success">selectmonster.jsp</result>
+	</action>
+
+	<action name ="LeadyAction" class ="com.oldmove.action.LeadyAction" method = "execute">
+	<result name="success">leady.jsp</result>
+	</action>
+
+	<action name ="BattleAction" class="com.oldmove.action.BattleAction" method="execute">
+	<result name ="success">battle.jsp</result>
+	<result name ="input">winner.jsp</result>
+	</action>
+
+	<action name ="BattlefinishAction" class="com.oldmove.action.BattlefinishAction" method="execute">
+	<result name ="success">index.jsp</result>
+	</action>
+
+	<action name ="GohomeAction" class="com.oldmove.action.GohomeAction" method="execute">
+	<result name ="success">index.jsp</result>
+	</action>
+
+	<action name="AcrobaticAction" class="com.oldmove.action.AcrobaticAction" method="execute">
+	<result name="success">acrobatic.jsp</result>
+	</action>
+
+	<action name="GosetunaAction" class="com.oldmove.action.GosetunaAction" method="execute">
+	<result name="success">setunafirst.jsp</result>
+	</action>
+
+	<action name="SecondsetunaAction" class="com.oldmove.action.SecondsetunaAction" method="execute">
+	<result name="success">setunasecond.jsp</result>
+	</action>
+
+	<action name="ThirdsetunaAction" class="com.oldmove.action.ThirdsetunaAction" method="execute">
+	<result name="success">setunathird.jsp</result>
+	</action>
+
+	<action name="FourthsetunaAction" class="com.oldmove.action.FourthsetunaAction" method="execute">
+	<result name="success">setunafourth.jsp</result>
+	</action>
+
+	<action name="FifthsetunaAction" class="com.oldmove.action.FifthsetunaAction" method="execute">
+	<result name="success">setunafifth.jsp</result>
+	</action>
+
+	<action name="SetunaAction" class="com.oldmove.action.SetunaAction" method="execute">
+	<result name="success">setunatitle.jsp</result>
+	</action>
+
+	</package>
+</struts>

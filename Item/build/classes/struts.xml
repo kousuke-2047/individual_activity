@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+"-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+"http://struts.apache.org/dtds/struts-2.3.dtd">
+
+<struts>
+
+	<constant name = "struts.devMode" value ="true"/>
+	<package name ="com.item.action" extends ="struts-default">
+
+	<action name = "ItemAction" class ="com.item.action.ItemAction" method ="execute">
+	<result name ="success">item.jsp</result>
+	</action>
+
+	<action name = "ItemshowAction" class = "com.item.action.ItemshowAction" method ="execute">
+	<result name ="success">itemshow.jsp</result>
+	</action>
+
+	<action name = "GosearchAction" class = "com.item.action.GosearchAction" method="execute">
+	<result name = "success">search.jsp</result>
+	</action>
+
+	<action name = "CSearchAction" class = "com.item.action.CSearchAction" method = "execute">
+	<result name ="success">searchshow.jsp</result>
+	<result name ="error">item.jsp</result>
+	</action>
+
+	<action name ="WSearchAction" class ="com.item.action.WSearchAction" method="execute">
+	<result name ="success">wsearchshow.jsp</result>
+	</action>
+
+	<action name ="XSearchAction" class="com.item.action.XSearchAction" method="execute">
+	<result name ="success">xsearchshow.jsp</result>
+	</action>
+
+
+
+	</package>
+
+</struts>
